@@ -6,16 +6,16 @@ This repository contains the GPM production scripts for running the Data Collect
     
     
 ## Open items
-- this project is in development and unreleased. Once launched, open bugs and new features will be listed here.
+This project is in development and unreleased. Once launched, open bugs and new features will be listed here.
 
 
 ## Data Collection Versions
     
-    - 2019.Q4 - unssported, xlsx source file support needed.
-    - 2020.Q1 - In development, not tested.
-    - 2020.Q3 - In development, not tested.
-    - 2020.Q4 - In development, not tested.
-    - 2021.Q1 - Supported
+- 2019.Q4 - unssported, xlsx source file support needed.
+- 2020.Q1 - In development, not tested.
+- 2020.Q3 - In development, not tested.
+- 2020.Q4 - In development, not tested.
+- 2021.Q1 - Supported
 
 ## Pipeline User guide
 
