@@ -3,7 +3,7 @@ This script is meant to guide a user through making a new blank jupytr environme
 
 These instructions assume you are using the PyCharm IDE.
 
-To start, create a new venv, add this file, and open it in the editor in order to add an interpretter.
+To start, create a new venv, add this file, and open it in the editor in order to add an interpreter.
 
 Add a project interpreter of 3.8 or higher. At this time, 3.9 is preferred. Make sure it is not a 32bit interpreter,
 that will not work.
@@ -14,7 +14,7 @@ Unusable 32-bit interpreters will have names and paths like: Python\Python38-32\
 
 You can run the script from the editor or from the terminal.
 
-Note, go off VPN to install packages.
+Note, go off VPN to install packages. If it is not starting or times out, it is likely the VPN blocking the script.
 
 Terminal instructions. Assuming you are in the working dir of this script.
 
