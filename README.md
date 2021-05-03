@@ -37,6 +37,7 @@ This project is in development and unreleased. Once launched, open bugs and new 
 ## Local installation
 
 #### Prequisites
+Required
     Python - have a base installation of a 64 bit version of python.exe 3.8 or higher.
     Pycharm - These instructions assume you ahve this IDE in order to create virtual environments for you. If you do not want to use PyCharm everything should work as long as you can create a viable project environment.
     
