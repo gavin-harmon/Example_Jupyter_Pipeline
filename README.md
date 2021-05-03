@@ -19,19 +19,60 @@ This project is in development and unreleased. Once launched, open bugs and new 
 
 ## Pipeline User guide
 
-    -Source file location:
-        "H:\Reporting\Data Collection\Production\20XX.QX\live_sources"
+#### Source file location:
+        
+    "H:\Reporting\Data Collection\Production\20XX.QX\live_sources"
+
+#### User interfaces
+
+- run_control.ipynb 
+  
+    A papermill pipeline solution.
+  
+    Each step of the pipeline can be ran manually or sequentially. 
+  
+    Your options for each run are explained at the top of this file. 
     
-    - User interfaces
-        - run_control.ipynb
-            A papermill pipeline solution. Each step of the pipeline can be ran manually or sequentially. Your options for each run are explained at the top of this file. This primary runner script can also be called from other programs and run in t background with defaults or passed parameters        
+    This primary execution script can also be called from other programs and run in the background with defaults or passed parameters
+  
+
+- Pipeline Runner.xlsm
+
+    "H:\Reporting\_Tools\GitHub\Production Repositories\Pipeline Runner\Pipeline Runner.xlsm"
+   
+    An Excel based GUI where the user can select options such as which BU specific dashboards to run.
         
-        - Pipeline Runner.xlsm
-            - "H:\Reporting\_Tools\GitHub\Production Repositories\Pipeline Runner\Pipeline Runner.xlsm"
-            - An Excel based GUI where the user can select options such as which BU specific dashboards to run.
-        
-     - instances folder
-         
+
+#### Instances folder
+  
+  "H:\Reporting\Data Collection\Production\20XX.QX\live_sources" 
+  
+  Full notebook records for each time the process is run. Here you can see the code that was run and also summary output. 
+                
+#### Current Process (In development):
+
+1. Pre-pipeline prep phase:
+    - German Allocations
+    - Swiss Transformations
+    - Portuguese Transformation
+    
+2. Read data, make csv.
+   - Appends all sources to one data frame and exports to a csv.
+    - Summary info available in notebook and archived csvs in data collection folder.
+3. Python data transformations.
+    - Read csv from previous step.
+    - Make required transformations in Python.
+    - Output to a temp file.
+4. R data transformations.
+    - Read temp file from previous step.
+    - Make all R Transformations
+    - Overwrite to temp file.
+5. Make final data files.
+    - Read temp file from previous step.
+    - Perform conversion to Euro with checks.
+    - Create local currency data file.
+    - Create Euro currency data file. - Archive previous
+6. Create Summary Report
 
 
 ## Local installation
