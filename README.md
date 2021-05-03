@@ -47,8 +47,8 @@ This project is in development and unreleased. Once launched, open bugs and new 
 
 #### Installation walkthrough
 
-    - Create a new virtual environment in your local project folders and name it as you like.
-    - Clone this repository into this new environment.
-    - Open setup_venv.py in the PyCharm edit window.
-    - Follow instructions in the file to setup a project interpreter.
-    - Run the script from teh winow or th terminal (instructions in setup_venv.py)
+1. Create a new virtual environment in your local project folders and name it as you like.
+2. Clone this repository into this new environment.
+3. Open setup_venv.py in the PyCharm edit window.
+4. Follow instructions in the file to setup a project interpreter.
+5. Run the script from teh winow or th terminal (instructions in setup_venv.py)
