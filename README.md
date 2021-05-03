@@ -7,7 +7,7 @@
     
     
 ## Open items
-    - this project is in development and unreleased. Once launched, open bugs and new features will be listed here.
+- this project is in development and unreleased. Once launched, open bugs and new features will be listed here.
 
 
 ## Data Collection Versions
