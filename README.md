@@ -20,7 +20,7 @@ This project is in development and unreleased. Once launched, open bugs and new 
 ## Pipeline User guide
 
 #### Source file location:
-        
+
     "H:\Reporting\Data Collection\Production\20XX.QX\live_sources"
 
 #### User interfaces
