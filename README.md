@@ -1,4 +1,4 @@
-# Global Portfolio Monitoring pipeline runner
+# Global Portfolio Monitoring Data Collection Pipeline
 ## Project Summary
 This repository contains the GPM production scripts for running the Data Collection pipeline. Users can clone this repository to their local computer in order to run the pipeline and update or change GPM reporting suite raw data files. This project will also run data updates in any CI/CD environment once GPM has a data server solition.
     
