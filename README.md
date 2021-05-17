@@ -93,12 +93,12 @@ Github Desktop - This is not required, but reccomended for regular users of the 
 ## Open items
 This project is in development and unreleased. Once launched, open bugs and new features will be listed here.
 
-immediate items:
+Last Touchpoint:
         
-        update timestamps - done
-            add link in file though
+        update timestamps - completed
+            add links in log file -  Open
         
-        Make summary report
+        Make summary report  - completed
         
         - 1 xls file,
             - View 1 
@@ -107,38 +107,41 @@ immediate items:
             - View 2
                 Euro conversion match
 
-Connect xlsx pipeline runner
 
-Coming soon
+Coming soon:
 1. Pre-pipeline prep phase:
     - German Allocations
     - Swiss Transformations
     - Portuguese Transformation
 
-In progress    
-2. Read data, make csv. - complete
+2. Connect xlsx pipeline runner
 
-In progress   
-3. Python data transformations.
+3. Create Travel Global Report.
+
+4. Create selected BU local dashboards.
+
+5. Euro checks.
+
+6. Optimize run logic
+
+Recently completed - 
+
+ Read data, make csv. - complete
+
+
+ Make final data files.
+    - Read temp file from previous step.
+    - Perform conversion to Euro with checks. << Checks added to coming soon
+    - Create local currency data file.
+    - Create Euro currency data file. - Archive previous
+
+ Python data transformations.
     - Read csv from previous step.
     - Make required transformations in Python.
     - Output to a temp file.
-    
-Coming soon
-4. R data transformations.
+
+ R data transformations.
     - Read temp file from previous step.
     - Make all R Transformations
-    - Overwrite to temp file.
+    - Overwrite to temp file. 
     
-Coming soon
-5. Make final data files.
-    - Read temp file from previous step.
-    - Perform conversion to Euro with checks.
-    - Create local currency data file.
-    - Create Euro currency data file. - Archive previous
-    
-Coming soon
-6. Create Travel Global Report.
-
-Coming soon
-7. Create selected BU local dashboards.
