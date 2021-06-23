@@ -126,6 +126,7 @@ Coming soon:
     - Swiss Transformations
     - Portuguese Transformation
 
+<<<<<<< HEAD
 2. Euro checks.
 
 3. Connect xlsx pipeline runner
@@ -133,11 +134,21 @@ Coming soon:
 4. Create Travel Global Report.
 
 5. Create selected BU local dashboards.
+=======
+2. Connect xlsx pipeline runner
+
+3. Create Travel Global Report.
+
+4. Create selected BU local dashboards.
+
+5. Euro checks.
+>>>>>>> 16739ffd78c82b19886099d0350318838d00c029
 
 6. Optimize run logic
 
 Recently completed - 
 
+<<<<<<< HEAD
 
  Finance reporting in /reporting
  
@@ -149,6 +160,11 @@ Recently completed -
 
  Read data, make csv. - complete
 
+=======
+ Read data, make csv. - complete
+
+
+>>>>>>> 16739ffd78c82b19886099d0350318838d00c029
  Make final data files.
     - Read temp file from previous step.
     - Perform conversion to Euro with checks. << Checks added to coming soon
@@ -165,5 +181,8 @@ Recently completed -
     - Make all R Transformations
     - Overwrite to temp file. 
     
+<<<<<<< HEAD
  
  
+=======
+>>>>>>> 16739ffd78c82b19886099d0350318838d00c029
