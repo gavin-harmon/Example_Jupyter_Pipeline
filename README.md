@@ -4,10 +4,10 @@ This repository contains the GPM production scripts for running the Data Collect
     
 ## Data Collection Versions
     
-- 2019.Q4 - unsupported, xlsx source file support needed.
-- 2020.Q1 - In development, not tested.
-- 2020.Q3 - In development, not tested.
-- 2020.Q4 - In development, not tested.
+- 2019.Q4 - Supported, not tested
+- 2020.Q1 - Supported, not tested.
+- 2020.Q3 - Supported, not tested.
+- 2020.Q4 - Supported, not tested.
 - 2021.Q1 - Supported.
 
 ## Pipeline User guide
@@ -54,34 +54,46 @@ This repository contains the GPM production scripts for running the Data Collect
 2. Read data, make csv.
    - Appends all sources to one data frame and exports to a csv.
     - Summary info available in notebook and archived csvs in data collection folder.
+
 3. Python data transformations.
     - Read csv from previous step.
     - Make required transformations in Python.
     - Output to a temp file.
+
 4. R data transformations.
     - Read temp file from previous step.
     - Make all R Transformations
     - Overwrite to temp file.
+
 5. Make final data files.
     - Read temp file from previous step.
     - Perform conversion to Euro with checks.
     - Create local currency data file.
     - Create Euro currency data file. - Archive previous
+
 6. Create Travel Global Report.
+
 7. Create selected BU local dashboards.
 
 ## Local installation
 
 #### Prequisites
 
-###### Required
+#### Jupyter
+	Testing is needed of what the minimal local setup is.
+
+###### Optional
 Python - have a base installation of a 64 bit version of python.exe 3.8 or higher.
-PyCharm - These instructions assume you ahve this IDE in order to create virtual environments for you. If you do not want to use PyCharm everything should work as long as you can create a viable project environment.
+PyCharm - These instructions assume you have this IDE in order to create virtual environments for you. If you do not want to use PyCharm everything should work as long as you can create a viable project environment.
     
 ###### Optional
 Github Desktop - This is not required, but reccomended for regular users of the enterprise github account.
 
-#### Installation walkthrough
+###### Minimal Installation Setup
+1. Ensure Jupyter can be launched from your desktop.
+2. Run 'Jupyter Launch.bat' in this folder.
+
+###### Developer Installation walkthrough
 
 1. Create a new virtual environment in your local project folders and name it as you like.
 2. Clone this repository into this new environment.
@@ -93,12 +105,12 @@ Github Desktop - This is not required, but reccomended for regular users of the 
 ## Open items
 This project is in development and unreleased. Once launched, open bugs and new features will be listed here.
 
-immediate items:
+Last Touchpoint:
         
-        update timestamps - done
-            add link in file though
+        update timestamps - completed
+            add links in log file -  Open
         
-        Make summary report
+        Make summary report  - completed
         
         - 1 xls file,
             - View 1 
@@ -107,38 +119,51 @@ immediate items:
             - View 2
                 Euro conversion match
 
-Connect xlsx pipeline runner
 
-Coming soon
+Coming soon:
 1. Pre-pipeline prep phase:
     - German Allocations
     - Swiss Transformations
     - Portuguese Transformation
 
-In progress    
-2. Read data, make csv. - complete
+2. Euro checks.
 
-In progress   
-3. Python data transformations.
+3. Connect xlsx pipeline runner
+
+4. Create Travel Global Report.
+
+5. Create selected BU local dashboards.
+
+6. Optimize run logic
+
+Recently completed - 
+
+
+ Finance reporting in /reporting
+ 
+ support for knitting
+
+ process for json to parquet
+
+ added to network and changed the instance archive process to be easier to navigate.
+
+ Read data, make csv. - complete
+
+ Make final data files.
+    - Read temp file from previous step.
+    - Perform conversion to Euro with checks. << Checks added to coming soon
+    - Create local currency data file.
+    - Create Euro currency data file. - Archive previous
+
+ Python data transformations.
     - Read csv from previous step.
     - Make required transformations in Python.
     - Output to a temp file.
-    
-Coming soon
-4. R data transformations.
+
+ R data transformations.
     - Read temp file from previous step.
     - Make all R Transformations
-    - Overwrite to temp file.
+    - Overwrite to temp file. 
     
-Coming soon
-5. Make final data files.
-    - Read temp file from previous step.
-    - Perform conversion to Euro with checks.
-    - Create local currency data file.
-    - Create Euro currency data file. - Archive previous
-    
-Coming soon
-6. Create Travel Global Report.
-
-Coming soon
-7. Create selected BU local dashboards.
+ 
+ 
